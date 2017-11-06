@@ -4,7 +4,7 @@ This project aims to make some cool stats regarding pokemons.
 
 Pokemon is one of the best games ever made. It has survived the test of time and has God knows how many editions of the game by now. It’s hard to understand what makes Pokemon such a phenomenal success, but here are some possible reasons. 
 
-[four main pokemons](https://github.com/OpenScienceGames/Games/blob/master/main_pokemon.jpg)
+[[https://github.com/OpenScienceGames/Games/blob/master/main_pokemon.jpg]]
 
 # Pokemon Battles
 Seriously, have you seen a sea-dragon capable of sending out Tsunamis, a swamp monster capable of shaking the ground hard enough to cause and earthquake, or a rat shooting out beams of laser? Probably not. Such ridiculous combat only exists in Pokemon, but it is still so damn awesome.
