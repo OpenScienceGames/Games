@@ -1,2 +1,2 @@
 # Games
-All about games
+All about games and accessibility. 
