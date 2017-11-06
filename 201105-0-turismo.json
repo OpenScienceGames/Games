@@ -1,0 +1,318 @@
+
+
+
+
+
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:edificioaccesible",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"@graph": [
+	
+	{
+		"@id": "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7805-centro-turismo-plaza-mayor.json",
+		"@type": "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7805",
+		"title": "Centro de Turismo Plaza Mayor",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b0a093e5fd61c010VgnVCM1000000b205a0aRCRD",
+		"address": {
+			"district": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "PLAZA MAYOR 27 Casa de la Panadería"
+		},
+		"location": {
+			"latitude": 40.41583855082183,
+			"longitude": -3.7074257084323636
+		},
+		"organization": {
+			"organization-desc": "Madrid cuenta en el Salón de Columnas de la Casa de la Panadería de la céntrica Plaza Mayor con uno de los más modernos centros turísticos del país que ofrece atención especializada con una plantilla de profesionales expertos en turismo e idiomas que atiende personalmente a los visitantes y da respuesta también a todas las peticiones de información que se realizan de manera no presencial.  Centro de turismo cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Sol (líneas 1, 2, 3), Ópera (línea 2, 5, Ramal)  Bus: 3, 5, 6, 15, 17, 18, 20, 23, 31, 32, 35, 50, 51, 52, 53, 65, 150  Renfe: Sol",
+			"accesibility": "1",
+			"schedule": "Horario de atención al público de 9:30 a 21:30 horas, todos los días del año.",
+			"services": "Atención presencial  / Especial idiomas asiáticos y ruso   Atención especializada    Autoconsulta    Tienda de Madrid    Accesibilidad:    Lengua de Signos Española    Bucles magnéticos (3)    Encaminamientos podotáctiles    Apoyos isquiáticos    Plano háptico    Mostrador adaptado    Guía de Turismo Accesible (en CD)      Área tecnológica: A udiovisuales",
+			"organization-name": "Centro de Turismo Plaza Mayor"
+		}
+	},
+	{
+		"@id": "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5631196-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-2-salas-5-6-.json",
+		"@type": "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "5631196",
+		"title": "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2 (Entre salas 5 y 6)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=88dfad2e06ea7210VgnVCM2000000c205a0aRCRD",
+		"address": {
+			"district": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Aeropuerto"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "AVENIDA HISPANIDAD Aeropuerto de Barajas. Salas 5 y 6"
+		},
+		"location": {
+			"latitude": 40.45188738242834,
+			"longitude": -3.5859807207200376
+		},
+		"organization": {
+			"organization-desc": "Metro: Aeropuerto T2 (línea 8)  Bus: 200 y autobús Express aeropuerto",
+			"accesibility": "0",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 8 a 21:30 horas, todos los días del año.",
+			"services": "Atención presencial  Autoconsulta  Audiovisuales",
+			"organization-name": "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2 (Entre salas 5 y 6)"
+		}
+	},
+	{
+		"@id": "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178759-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-4-sala-10-.json",
+		"@type": "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "178759",
+		"title": "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4 (Sala 10)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8f871c7a2c61c010VgnVCM1000000b205a0aRCRD",
+		"address": {
+			"district": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Aeropuerto"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "AVENIDA HISPANIDAD Aeropuerto de Barajas. Salas 10"
+		},
+		"location": {
+			"latitude": 40.45188738242834,
+			"longitude": -3.5859807207200376
+		},
+		"organization": {
+			"organization-desc": "Metro: Aeropuerto T 4 (línea 8)  Bus: 200 y Exprés Aeropuerto  Renfe: Aeropuerto T 4",
+			"accesibility": "1",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 8 a 21:30 horas, todos los días del año.",
+			"services": "Atención presencial  Autoconsulta  Audiovisuales  Acceso adaptado",
+			"organization-name": "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4 (Sala 10)"
+		}
+	},
+	{
+		"@id": "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085167-punto-informacion-turistica-atocha-junto-al-museo-reina-sofia-.json",
+		"@type": "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "10085167",
+		"title": "Punto de Información Turística. Atocha (junto al museo Reina Sofía)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8321a9a7e3525510VgnVCM2000001f4a900aRCRD",
+		"address": {
+			"district": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/PalosMoguer"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "RONDA ATOCHA 1 junto al museo Reina Sofía"
+		},
+		"location": {
+			"latitude": 40.40718011197082,
+			"longitude": -3.6941708773769997
+		},
+		"organization": {
+			"organization-desc": "Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Atocha (Línea 1)  Bus: 351, 352, 353  Renfe: Largo recorrido, AVE y cercanías",
+			"accesibility": "1",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.",
+			"services": "Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético",
+			"organization-name": "Punto de Información Turística. Atocha (junto al museo Reina Sofía)"
+		}
+	},
+	{
+		"@id": "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7050847-punto-informacion-turistica-centrocentro.json",
+		"@type": "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7050847",
+		"title": "Punto de Información Turística. Centrocentro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=81c63eebd56ff310VgnVCM2000000c205a0aRCRD",
+		"address": {
+			"district": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "PLAZA CIBELES 1 Palacio de Cibeles"
+		},
+		"location": {
+			"latitude": 40.419011767401095,
+			"longitude": -3.692206111679657
+		},
+		"organization": {
+			"organization-desc": "El espacio de exposiciones CentroCentro, en el Palacio de Cibeles (actual sede del Ayuntamiento de Madrid y antiguo Palacio de Correos) alberga un punto de información turística especializado en información artística y cultural, en pleno Paseo del Arte.Descripción monumental    Arquitecto:  Jacques Marquet (1760 - 1768)  Construido para sede central del Correo. Su estilo es del barroco más clásico. Destaca la combinación de materiales, del ladrillo y la piedra con el hierro labrado del balcón y los detalles escultóricos de Antonio Primo. La torrecilla del reloj data del siglo XIX, y fue regalo del relojero Losada.Metro: Banco de España (línea 2)  Bus: 1, 2, 5, 9, 10, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  Renfe: Recoletos",
+			"accesibility": "1",
+			"schedule": "De martes a domingo de 10 a 20 horas  Cerrado todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre  5 de enero abierto de 10 a 14 horas",
+			"services": "Atención presencial  Autoconsulta  Audiovisuales  Acceso adaptado",
+			"organization-name": "Punto de Información Turística. Centrocentro"
+		}
+	},
+	{
+		"@id": "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085202-punto-informacion-turistica-estadio-santiago-bernabeu.json",
+		"@type": "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "10085202",
+		"title": "Punto de Información Turística. Estadio Santiago Bernabéu",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2da4a9a7e3525510VgnVCM2000001f4a900aRCRD",
+		"address": {
+			"district": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/ElViso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28046",
+			"street-address": "PASEO CASTELLANA 138 junto al Estadio Santiago Bernabéu"
+		},
+		"location": {
+			"latitude": 40.451465916355055,
+			"longitude": -3.69008606793658
+		},
+		"organization": {
+			"organization-desc": "Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Santiago Bernabeu (línea 10)  Bus: 27, 40, 126, 147 y 150",
+			"accesibility": "1",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público: de 9:30 a 20:30 horas, todos los días del año.",
+			"services": "Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético",
+			"organization-name": "Punto de Información Turística. Estadio Santiago Bernabéu"
+		}
+	},
+	{
+		"@id": "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085398-punto-informacion-turistica-paseo-prado.json",
+		"@type": "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "10085398",
+		"title": "Punto de Información Turística. Paseo del Prado",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1f6bdae9bb525510VgnVCM2000001f4a900aRCRD",
+		"address": {
+			"district": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "PLAZA NEPTUNO 1 FRENTE AL MUSEO DEL PRADO"
+		},
+		"location": {
+			"latitude": 40.41688576337496,
+			"longitude": -3.692184322678944
+		},
+		"organization": {
+			"organization-desc": "Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Banco de España (línea 2)  Bus: 10, 14, 27, 34, 37, 45, N9, N10, N11, N12, N13, N14, N15, N17 y N25",
+			"accesibility": "1",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.",
+			"services": "Atención presencial    Audiovisuales   WIFI Gratuita  Bucle magnético  Punto de venta de la tarjeta Madrid Card y del Madrid City Tour (Solo pago con tarjeta de crédito)",
+			"organization-name": "Punto de Información Turística. Paseo del Prado"
+		}
+	},
+	{
+		"@id": "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171082-punto-informacion-turistica-plaza-callao.json",
+		"@type": "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "171082",
+		"title": "Punto de Información Turística. Plaza de Callao",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=acf029ea9281c010VgnVCM1000000b205a0aRCRD",
+		"address": {
+			"district": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "PLAZA CALLAO 1"
+		},
+		"location": {
+			"latitude": 40.41974735763767,
+			"longitude": -3.7061346665078845
+		},
+		"organization": {
+			"organization-desc": "Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Callao (líneas 1, 3, 5)  Bus: 1, 2, 44, 46, 74, 75, 146, 147, 148, 133 y 202",
+			"accesibility": "1",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.",
+			"services": "Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético   Punto de venta de la tarjeta Madrid Card y del Madrid City Tour (solo pago con tarjeta de crédito)",
+			"organization-name": "Punto de Información Turística. Plaza de Callao"
+		}
+	},
+	{
+		"@id": "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629416-punto-informacion-turistica-recoletos-colon.json",
+		"@type": "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "4629416",
+		"title": "Punto de Información Turística. Recoletos-Colón",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4f94e40c7294110VgnVCM1000000b205a0aRCRD",
+		"address": {
+			"district": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Justicia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "PASEO RECOLETOS 23"
+		},
+		"location": {
+			"latitude": 40.422597498148065,
+			"longitude": -3.6921839265043257
+		},
+		"organization": {
+			"organization-desc": "Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Colón ( línea 4)  Bus: 5,14, 27, 37, 45, 53, 150  Renfe: Recoletos ( líneas: C1, C7, C2, C8, C10 y regional)",
+			"accesibility": "1",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.   Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.",
+			"services": "Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético",
+			"organization-name": "Punto de Información Turística. Recoletos-Colón"
+		}
+	}	  
+  ]
+}
+
+
+
+
+
+
+

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<Contenidos>
+    <infoDataset>
+        <nombre>Puntos de información turística</nombre>
+        <id>201105-0</id>
+        <uri>http://datos.madrid.es/egob/catalogo/201105-0-turismo</uri>
+        <descripcion> Datos y coordenadas de localización, accesibilidad, servicios y transporte de los puntos fijos de información turística municipales. 
+ Existe adicionalmente una Unidad Móvil que funciona como punto itinerante de información turística de la ciudad de Madrid con atención presencial y personalizada en varios idiomas. Durante todo el año y, en especial, durante los principales periodos vacacionales (Semana Santa, Verano y Navidad) se sitúa junto a monumentos y edificios de gran afluencia turística como el Palacio Real, el Museo del Prado o Caixa Forum y presta un servicio informativo de apoyo a los Servicios de Atención e Información Turística en las campañas especiales que se llevan a cabo con motivo de las diferentes celebraciones que tienen lugar en nuestra ciudad (Día del Libro, Semana del Orgullo Gay, Noche en Blanco, Día Mundial del Turismo, Festival Internacional de Jazz, ...). Presta servicios de atención presencial, autoconsulta, bucle magnético y dispone de acceso adaptado. 
+     </descripcion>
+    </infoDataset>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">7805</atributo>
+            <atributo nombre="NOMBRE">Centro de Turismo Plaza Mayor</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Madrid cuenta en el Salón de Columnas de la Casa de la Panadería de la céntrica Plaza Mayor con uno de los más modernos centros turísticos del país que ofrece atención especializada con una plantilla de profesionales expertos en turismo e idiomas que atiende personalmente a los visitantes y da respuesta también a todas las peticiones de información que se realizan de manera no presencial.  Centro de turismo cofinanciado por el Fondo Europeo de Desarrollo Regional.]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[Horario de atención al público de 9:30 a 21:30 horas, todos los días del año.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Atención presencial  / Especial idiomas asiáticos y ruso   Atención especializada    Autoconsulta    Tienda de Madrid    Accesibilidad:    Lengua de Signos Española    Bucles magnéticos (3)    Encaminamientos podotáctiles    Apoyos isquiáticos    Plano háptico    Mostrador adaptado    Guía de Turismo Accesible (en CD)      Área tecnológica: A udiovisuales]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Sol (líneas 1, 2, 3), Ópera (línea 2, 5, Ramal)  Bus: 3, 5, 6, 15, 17, 18, 20, 23, 31, 32, 35, 50, 51, 52, 53, 65, 150  Renfe: Sol]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b0a093e5fd61c010VgnVCM1000000b205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">MAYOR</atributo>
+                <atributo nombre="CLASE-VIAL">PLAZA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">27</atributo>
+                <atributo nombre="ORIENTACION">Casa de la Panadería</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28012</atributo>
+                <atributo nombre="BARRIO">SOL</atributo>
+                <atributo nombre="DISTRITO">CENTRO</atributo>
+                <atributo nombre="COORDENADA-X">440092</atributo>
+                <atributo nombre="COORDENADA-Y">4474361</atributo>
+                <atributo nombre="LATITUD">40.41583855082183</atributo>
+                <atributo nombre="LONGITUD">-3.7074257084323636</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 787 810                          </atributo>
+                <atributo nombre="EMAIL">turismo@esmadrid.com</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasTurismo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">5631196</atributo>
+            <atributo nombre="NOMBRE">Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2 (Entre salas 5 y 6)</atributo>
+            <atributo nombre="HORARIO"><![CDATA[Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 8 a 21:30 horas, todos los días del año.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Atención presencial  Autoconsulta  Audiovisuales]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Aeropuerto T2 (línea 8)  Bus: 200 y autobús Express aeropuerto]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">0</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=88dfad2e06ea7210VgnVCM2000000c205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">HISPANIDAD</atributo>
+                <atributo nombre="CLASE-VIAL">AVENIDA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">0</atributo>
+                <atributo nombre="ORIENTACION">Aeropuerto de Barajas. Salas 5 y 6</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28042</atributo>
+                <atributo nombre="BARRIO">AEROPUERTO</atributo>
+                <atributo nombre="DISTRITO">BARAJAS</atributo>
+                <atributo nombre="COORDENADA-X">450422</atributo>
+                <atributo nombre="COORDENADA-Y">4478287</atributo>
+                <atributo nombre="LATITUD">40.45188738242834</atributo>
+                <atributo nombre="LONGITUD">-3.5859807207200376</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 787 810</atributo>
+                <atributo nombre="EMAIL">turismo@esmadrid.com</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasTurismo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">178759</atributo>
+            <atributo nombre="NOMBRE">Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4 (Sala 10)</atributo>
+            <atributo nombre="HORARIO"><![CDATA[Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 8 a 21:30 horas, todos los días del año.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Atención presencial  Autoconsulta  Audiovisuales  Acceso adaptado]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Aeropuerto T 4 (línea 8)  Bus: 200 y Exprés Aeropuerto  Renfe: Aeropuerto T 4]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8f871c7a2c61c010VgnVCM1000000b205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">HISPANIDAD</atributo>
+                <atributo nombre="CLASE-VIAL">AVENIDA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">0</atributo>
+                <atributo nombre="ORIENTACION">Aeropuerto de Barajas. Salas 10</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28042</atributo>
+                <atributo nombre="BARRIO">AEROPUERTO</atributo>
+                <atributo nombre="DISTRITO">BARAJAS</atributo>
+                <atributo nombre="COORDENADA-X">450422</atributo>
+                <atributo nombre="COORDENADA-Y">4478287</atributo>
+                <atributo nombre="LATITUD">40.45188738242834</atributo>
+                <atributo nombre="LONGITUD">-3.5859807207200376</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 787 810</atributo>
+                <atributo nombre="EMAIL">turismo@esmadrid.com</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasTurismo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">10085167</atributo>
+            <atributo nombre="NOMBRE">Punto de Información Turística. Atocha (junto al museo Reina Sofía)</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Atocha (Línea 1)  Bus: 351, 352, 353  Renfe: Largo recorrido, AVE y cercanías]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8321a9a7e3525510VgnVCM2000001f4a900aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">ATOCHA</atributo>
+                <atributo nombre="CLASE-VIAL">RONDA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">1</atributo>
+                <atributo nombre="ORIENTACION">junto al museo Reina Sofía</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28012</atributo>
+                <atributo nombre="BARRIO">PALOS DE MOGUER</atributo>
+                <atributo nombre="DISTRITO">ARGANZUELA</atributo>
+                <atributo nombre="COORDENADA-X">441209</atributo>
+                <atributo nombre="COORDENADA-Y">4473391</atributo>
+                <atributo nombre="LATITUD">40.40718011197082</atributo>
+                <atributo nombre="LONGITUD">-3.6941708773769997</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 787 810</atributo>
+                <atributo nombre="EMAIL">turismo@esmadrid.com</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasTurismo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">7050847</atributo>
+            <atributo nombre="NOMBRE">Punto de Información Turística. Centrocentro</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[El espacio de exposiciones CentroCentro, en el Palacio de Cibeles (actual sede del Ayuntamiento de Madrid y antiguo Palacio de Correos) alberga un punto de información turística especializado en información artística y cultural, en pleno Paseo del Arte.]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[De martes a domingo de 10 a 20 horas  Cerrado todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre  5 de enero abierto de 10 a 14 horas]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Atención presencial  Autoconsulta  Audiovisuales  Acceso adaptado]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Banco de España (línea 2)  Bus: 1, 2, 5, 9, 10, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  Renfe: Recoletos]]></atributo>
+            <atributo nombre="DESCRIPCION"><![CDATA[Descripción monumental    Arquitecto:  Jacques Marquet (1760 - 1768)  Construido para sede central del Correo. Su estilo es del barroco más clásico. Destaca la combinación de materiales, del ladrillo y la piedra con el hierro labrado del balcón y los detalles escultóricos de Antonio Primo. La torrecilla del reloj data del siglo XIX, y fue regalo del relojero Losada.]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=81c63eebd56ff310VgnVCM2000000c205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">CIBELES</atributo>
+                <atributo nombre="CLASE-VIAL">PLAZA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">1</atributo>
+                <atributo nombre="ORIENTACION">Palacio de Cibeles</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28014</atributo>
+                <atributo nombre="BARRIO">LOS JERONIMOS</atributo>
+                <atributo nombre="DISTRITO">RETIRO</atributo>
+                <atributo nombre="COORDENADA-X">441386</atributo>
+                <atributo nombre="COORDENADA-Y">4474703</atributo>
+                <atributo nombre="LATITUD">40.419011767401095</atributo>
+                <atributo nombre="LONGITUD">-3.692206111679657</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 787 810</atributo>
+                <atributo nombre="EMAIL">turismo@esmadrid.com</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasTurismo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">10085202</atributo>
+            <atributo nombre="NOMBRE">Punto de Información Turística. Estadio Santiago Bernabéu</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público: de 9:30 a 20:30 horas, todos los días del año.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Santiago Bernabeu (línea 10)  Bus: 27, 40, 126, 147 y 150]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2da4a9a7e3525510VgnVCM2000001f4a900aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">CASTELLANA</atributo>
+                <atributo nombre="CLASE-VIAL">PASEO</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">138</atributo>
+                <atributo nombre="ORIENTACION">junto al Estadio Santiago Bernabéu</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28046</atributo>
+                <atributo nombre="BARRIO">EL VISO</atributo>
+                <atributo nombre="DISTRITO">CHAMARTIN</atributo>
+                <atributo nombre="COORDENADA-X">441593</atributo>
+                <atributo nombre="COORDENADA-Y">4478303</atributo>
+                <atributo nombre="LATITUD">40.451465916355055</atributo>
+                <atributo nombre="LONGITUD">-3.69008606793658</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 787 810</atributo>
+                <atributo nombre="EMAIL">turismo@esmadrid.com</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasTurismo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">10085398</atributo>
+            <atributo nombre="NOMBRE">Punto de Información Turística. Paseo del Prado</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Atención presencial    Audiovisuales   WIFI Gratuita  Bucle magnético  Punto de venta de la tarjeta Madrid Card y del Madrid City Tour (Solo pago con tarjeta de crédito)]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Banco de España (línea 2)  Bus: 10, 14, 27, 34, 37, 45, N9, N10, N11, N12, N13, N14, N15, N17 y N25]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1f6bdae9bb525510VgnVCM2000001f4a900aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">NEPTUNO</atributo>
+                <atributo nombre="CLASE-VIAL">PLAZA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">1</atributo>
+                <atributo nombre="ORIENTACION">FRENTE AL MUSEO DEL PRADO</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28014</atributo>
+                <atributo nombre="BARRIO">LOS JERONIMOS</atributo>
+                <atributo nombre="DISTRITO">RETIRO</atributo>
+                <atributo nombre="COORDENADA-X">441386</atributo>
+                <atributo nombre="COORDENADA-Y">4474466</atributo>
+                <atributo nombre="LATITUD">40.41688576337496</atributo>
+                <atributo nombre="LONGITUD">-3.692184322678944</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 787 810</atributo>
+                <atributo nombre="EMAIL">turismo@esmadrid.com</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasTurismo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">171082</atributo>
+            <atributo nombre="NOMBRE">Punto de Información Turística. Plaza de Callao</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético   Punto de venta de la tarjeta Madrid Card y del Madrid City Tour (solo pago con tarjeta de crédito)]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Callao (líneas 1, 3, 5)  Bus: 1, 2, 44, 46, 74, 75, 146, 147, 148, 133 y 202]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=acf029ea9281c010VgnVCM1000000b205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">CALLAO</atributo>
+                <atributo nombre="CLASE-VIAL">PLAZA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">1</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28013</atributo>
+                <atributo nombre="BARRIO">SOL</atributo>
+                <atributo nombre="DISTRITO">CENTRO</atributo>
+                <atributo nombre="COORDENADA-X">440205</atributo>
+                <atributo nombre="COORDENADA-Y">4474794</atributo>
+                <atributo nombre="LATITUD">40.41974735763767</atributo>
+                <atributo nombre="LONGITUD">-3.7061346665078845</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 787 810</atributo>
+                <atributo nombre="EMAIL">turismo@esmadrid.com</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasTurismo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">4629416</atributo>
+            <atributo nombre="NOMBRE">Punto de Información Turística. Recoletos-Colón</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.   Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Colón ( línea 4)  Bus: 5,14, 27, 37, 45, 53, 150  Renfe: Recoletos ( líneas: C1, C7, C2, C8, C10 y regional)]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d4f94e40c7294110VgnVCM1000000b205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">RECOLETOS</atributo>
+                <atributo nombre="CLASE-VIAL">PASEO</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">23</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28004</atributo>
+                <atributo nombre="BARRIO">JUSTICIA</atributo>
+                <atributo nombre="DISTRITO">CENTRO</atributo>
+                <atributo nombre="COORDENADA-X">441391</atributo>
+                <atributo nombre="COORDENADA-Y">4475101</atributo>
+                <atributo nombre="LATITUD">40.422597498148065</atributo>
+                <atributo nombre="LONGITUD">-3.6921839265043257</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 787 810</atributo>
+                <atributo nombre="EMAIL">turismo@esmadrid.com</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasTurismo</atributo>
+        </atributos>
+    </contenido>
+</Contenidos>
+
+
+
+
+
+
+

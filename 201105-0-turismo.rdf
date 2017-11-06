@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<rdf:RDF xmlns:dc="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:geonames="http://www.geonames.org/ontology#" xmlns:loc="http://purl.org/ctic/infraestructuras/localizacion#" xmlns:org="http://purl.org/ctic/infraestructuras/organizacion#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:v="http://www.w3.org/2006/vcard/ns#">
+    <v:VCard rdf:about="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7805-centro-turismo-plaza-mayor">
+        <v:fn>Centro de Turismo Plaza Mayor</v:fn>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo"/>
+        <dc:relation>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b0a093e5fd61c010VgnVCM1000000b205a0aRCRD</dc:relation>
+        <v:org>
+            <rdf:Description>
+                <v:organization-name>Centro de Turismo Plaza Mayor</v:organization-name>
+                <org:horario>Horario de atención al público de 9:30 a 21:30 horas, todos los días del año.</org:horario>
+                <org:edificioaccesible>Si</org:edificioaccesible>
+                <org:servicios>Atención presencial  / Especial idiomas asiáticos y ruso   Atención especializada    Autoconsulta    Tienda de Madrid    Accesibilidad:    Lengua de Signos Española    Bucles magnéticos (3)    Encaminamientos podotáctiles    Apoyos isquiáticos    Plano háptico    Mostrador adaptado    Guía de Turismo Accesible (en CD)      Área tecnológica: A udiovisuales</org:servicios>
+                <dc:description>Madrid cuenta en el Salón de Columnas de la Casa de la Panadería de la céntrica Plaza Mayor con uno de los más modernos centros turísticos del país que ofrece atención especializada con una plantilla de profesionales expertos en turismo e idiomas que atiende personalmente a los visitantes y da respuesta también a todas las peticiones de información que se realizan de manera no presencial.  Centro de turismo cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Sol (líneas 1, 2, 3), Ópera (línea 2, 5, Ramal)  Bus: 3, 5, 6, 15, 17, 18, 20, 23, 31, 32, 35, 50, 51, 52, 53, 65, 150  Renfe: Sol</dc:description>
+            </rdf:Description>
+        </v:org>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"/>
+                <loc:barrio rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"/>
+                <v:street-address>PLAZA MAYOR 27 Casa de la Panadería</v:street-address>
+                <v:locality>MADRID</v:locality>
+                <v:postal-code>28012</v:postal-code>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7074257084323636</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41583855082183</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <v:tel>
+            <rdf:Description>
+                <rdf:value>915 787 810                          </rdf:value>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+            </rdf:Description>
+        </v:tel>
+        <v:email rdf:resource="mailto:turismo@esmadrid.com"/>
+    </v:VCard>
+    <v:VCard rdf:about="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5631196-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-2-salas-5-6-">
+        <v:fn>Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2 (Entre salas 5 y 6)</v:fn>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo"/>
+        <dc:relation>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=88dfad2e06ea7210VgnVCM2000000c205a0aRCRD</dc:relation>
+        <v:org>
+            <rdf:Description>
+                <v:organization-name>Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2 (Entre salas 5 y 6)</v:organization-name>
+                <org:horario>Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 8 a 21:30 horas, todos los días del año.</org:horario>
+                <org:edificioaccesible>No</org:edificioaccesible>
+                <org:servicios>Atención presencial  Autoconsulta  Audiovisuales</org:servicios>
+                <dc:description>Metro: Aeropuerto T2 (línea 8)  Bus: 200 y autobús Express aeropuerto</dc:description>
+            </rdf:Description>
+        </v:org>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"/>
+                <loc:barrio rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Aeropuerto"/>
+                <v:street-address>AVENIDA HISPANIDAD Aeropuerto de Barajas. Salas 5 y 6</v:street-address>
+                <v:locality>MADRID</v:locality>
+                <v:postal-code>28042</v:postal-code>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.5859807207200376</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45188738242834</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <v:tel>
+            <rdf:Description>
+                <rdf:value>915 787 810</rdf:value>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+            </rdf:Description>
+        </v:tel>
+        <v:email rdf:resource="mailto:turismo@esmadrid.com"/>
+    </v:VCard>
+    <v:VCard rdf:about="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178759-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-4-sala-10-">
+        <v:fn>Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4 (Sala 10)</v:fn>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo"/>
+        <dc:relation>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8f871c7a2c61c010VgnVCM1000000b205a0aRCRD</dc:relation>
+        <v:org>
+            <rdf:Description>
+                <v:organization-name>Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4 (Sala 10)</v:organization-name>
+                <org:horario>Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 8 a 21:30 horas, todos los días del año.</org:horario>
+                <org:edificioaccesible>Si</org:edificioaccesible>
+                <org:servicios>Atención presencial  Autoconsulta  Audiovisuales  Acceso adaptado</org:servicios>
+                <dc:description>Metro: Aeropuerto T 4 (línea 8)  Bus: 200 y Exprés Aeropuerto  Renfe: Aeropuerto T 4</dc:description>
+            </rdf:Description>
+        </v:org>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"/>
+                <loc:barrio rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Aeropuerto"/>
+                <v:street-address>AVENIDA HISPANIDAD Aeropuerto de Barajas. Salas 10</v:street-address>
+                <v:locality>MADRID</v:locality>
+                <v:postal-code>28042</v:postal-code>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.5859807207200376</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45188738242834</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <v:tel>
+            <rdf:Description>
+                <rdf:value>915 787 810</rdf:value>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+            </rdf:Description>
+        </v:tel>
+        <v:email rdf:resource="mailto:turismo@esmadrid.com"/>
+    </v:VCard>
+    <v:VCard rdf:about="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085167-punto-informacion-turistica-atocha-junto-al-museo-reina-sofia-">
+        <v:fn>Punto de Información Turística. Atocha (junto al museo Reina Sofía)</v:fn>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo"/>
+        <dc:relation>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8321a9a7e3525510VgnVCM2000001f4a900aRCRD</dc:relation>
+        <v:org>
+            <rdf:Description>
+                <v:organization-name>Punto de Información Turística. Atocha (junto al museo Reina Sofía)</v:organization-name>
+                <org:horario>Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.</org:horario>
+                <org:edificioaccesible>Si</org:edificioaccesible>
+                <org:servicios>Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético</org:servicios>
+                <dc:description>Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Atocha (Línea 1)  Bus: 351, 352, 353  Renfe: Largo recorrido, AVE y cercanías</dc:description>
+            </rdf:Description>
+        </v:org>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"/>
+                <loc:barrio rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/PalosMoguer"/>
+                <v:street-address>RONDA ATOCHA 1 junto al museo Reina Sofía</v:street-address>
+                <v:locality>MADRID</v:locality>
+                <v:postal-code>28012</v:postal-code>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6941708773769997</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.40718011197082</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <v:tel>
+            <rdf:Description>
+                <rdf:value>915 787 810</rdf:value>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+            </rdf:Description>
+        </v:tel>
+        <v:email rdf:resource="mailto:turismo@esmadrid.com"/>
+    </v:VCard>
+    <v:VCard rdf:about="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7050847-punto-informacion-turistica-centrocentro">
+        <v:fn>Punto de Información Turística. Centrocentro</v:fn>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo"/>
+        <dc:relation>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=81c63eebd56ff310VgnVCM2000000c205a0aRCRD</dc:relation>
+        <v:org>
+            <rdf:Description>
+                <v:organization-name>Punto de Información Turística. Centrocentro</v:organization-name>
+                <org:horario>De martes a domingo de 10 a 20 horas  Cerrado todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre  5 de enero abierto de 10 a 14 horas</org:horario>
+                <org:edificioaccesible>Si</org:edificioaccesible>
+                <org:servicios>Atención presencial  Autoconsulta  Audiovisuales  Acceso adaptado</org:servicios>
+                <dc:description>El espacio de exposiciones CentroCentro, en el Palacio de Cibeles (actual sede del Ayuntamiento de Madrid y antiguo Palacio de Correos) alberga un punto de información turística especializado en información artística y cultural, en pleno Paseo del Arte.Descripción monumental    Arquitecto:  Jacques Marquet (1760 - 1768)  Construido para sede central del Correo. Su estilo es del barroco más clásico. Destaca la combinación de materiales, del ladrillo y la piedra con el hierro labrado del balcón y los detalles escultóricos de Antonio Primo. La torrecilla del reloj data del siglo XIX, y fue regalo del relojero Losada.Metro: Banco de España (línea 2)  Bus: 1, 2, 5, 9, 10, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  Renfe: Recoletos</dc:description>
+            </rdf:Description>
+        </v:org>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"/>
+                <loc:barrio rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"/>
+                <v:street-address>PLAZA CIBELES 1 Palacio de Cibeles</v:street-address>
+                <v:locality>MADRID</v:locality>
+                <v:postal-code>28014</v:postal-code>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.692206111679657</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.419011767401095</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <v:tel>
+            <rdf:Description>
+                <rdf:value>915 787 810</rdf:value>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+            </rdf:Description>
+        </v:tel>
+        <v:email rdf:resource="mailto:turismo@esmadrid.com"/>
+    </v:VCard>
+    <v:VCard rdf:about="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085202-punto-informacion-turistica-estadio-santiago-bernabeu">
+        <v:fn>Punto de Información Turística. Estadio Santiago Bernabéu</v:fn>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo"/>
+        <dc:relation>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2da4a9a7e3525510VgnVCM2000001f4a900aRCRD</dc:relation>
+        <v:org>
+            <rdf:Description>
+                <v:organization-name>Punto de Información Turística. Estadio Santiago Bernabéu</v:organization-name>
+                <org:horario>Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público: de 9:30 a 20:30 horas, todos los días del año.</org:horario>
+                <org:edificioaccesible>Si</org:edificioaccesible>
+                <org:servicios>Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético</org:servicios>
+                <dc:description>Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Santiago Bernabeu (línea 10)  Bus: 27, 40, 126, 147 y 150</dc:description>
+            </rdf:Description>
+        </v:org>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"/>
+                <loc:barrio rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/ElViso"/>
+                <v:street-address>PASEO CASTELLANA 138 junto al Estadio Santiago Bernabéu</v:street-address>
+                <v:locality>MADRID</v:locality>
+                <v:postal-code>28046</v:postal-code>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.69008606793658</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.451465916355055</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <v:tel>
+            <rdf:Description>
+                <rdf:value>915 787 810</rdf:value>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+            </rdf:Description>
+        </v:tel>
+        <v:email rdf:resource="mailto:turismo@esmadrid.com"/>
+    </v:VCard>
+    <v:VCard rdf:about="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085398-punto-informacion-turistica-paseo-prado">
+        <v:fn>Punto de Información Turística. Paseo del Prado</v:fn>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo"/>
+        <dc:relation>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1f6bdae9bb525510VgnVCM2000001f4a900aRCRD</dc:relation>
+        <v:org>
+            <rdf:Description>
+                <v:organization-name>Punto de Información Turística. Paseo del Prado</v:organization-name>
+                <org:horario>Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.</org:horario>
+                <org:edificioaccesible>Si</org:edificioaccesible>
+                <org:servicios>Atención presencial    Audiovisuales   WIFI Gratuita  Bucle magnético  Punto de venta de la tarjeta Madrid Card y del Madrid City Tour (Solo pago con tarjeta de crédito)</org:servicios>
+                <dc:description>Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Banco de España (línea 2)  Bus: 10, 14, 27, 34, 37, 45, N9, N10, N11, N12, N13, N14, N15, N17 y N25</dc:description>
+            </rdf:Description>
+        </v:org>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"/>
+                <loc:barrio rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"/>
+                <v:street-address>PLAZA NEPTUNO 1 FRENTE AL MUSEO DEL PRADO</v:street-address>
+                <v:locality>MADRID</v:locality>
+                <v:postal-code>28014</v:postal-code>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.692184322678944</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41688576337496</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <v:tel>
+            <rdf:Description>
+                <rdf:value>915 787 810</rdf:value>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+            </rdf:Description>
+        </v:tel>
+        <v:email rdf:resource="mailto:turismo@esmadrid.com"/>
+    </v:VCard>
+    <v:VCard rdf:about="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171082-punto-informacion-turistica-plaza-callao">
+        <v:fn>Punto de Información Turística. Plaza de Callao</v:fn>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo"/>
+        <dc:relation>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=acf029ea9281c010VgnVCM1000000b205a0aRCRD</dc:relation>
+        <v:org>
+            <rdf:Description>
+                <v:organization-name>Punto de Información Turística. Plaza de Callao</v:organization-name>
+                <org:horario>Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.</org:horario>
+                <org:edificioaccesible>Si</org:edificioaccesible>
+                <org:servicios>Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético   Punto de venta de la tarjeta Madrid Card y del Madrid City Tour (solo pago con tarjeta de crédito)</org:servicios>
+                <dc:description>Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Callao (líneas 1, 3, 5)  Bus: 1, 2, 44, 46, 74, 75, 146, 147, 148, 133 y 202</dc:description>
+            </rdf:Description>
+        </v:org>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"/>
+                <loc:barrio rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"/>
+                <v:street-address>PLAZA CALLAO 1</v:street-address>
+                <v:locality>MADRID</v:locality>
+                <v:postal-code>28013</v:postal-code>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7061346665078845</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41974735763767</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <v:tel>
+            <rdf:Description>
+                <rdf:value>915 787 810</rdf:value>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+            </rdf:Description>
+        </v:tel>
+        <v:email rdf:resource="mailto:turismo@esmadrid.com"/>
+    </v:VCard>
+    <v:VCard rdf:about="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629416-punto-informacion-turistica-recoletos-colon">
+        <v:fn>Punto de Información Turística. Recoletos-Colón</v:fn>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo"/>
+        <dc:relation>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d4f94e40c7294110VgnVCM1000000b205a0aRCRD</dc:relation>
+        <v:org>
+            <rdf:Description>
+                <v:organization-name>Punto de Información Turística. Recoletos-Colón</v:organization-name>
+                <org:horario>Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.   Horario de atención al público de 9:30 a 20:30 horas, todos los días del año.</org:horario>
+                <org:edificioaccesible>Si</org:edificioaccesible>
+                <org:servicios>Atención Presencial  Audiovisuales  WIFI Gratuita  Bucle magnético</org:servicios>
+                <dc:description>Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.Metro: Colón ( línea 4)  Bus: 5,14, 27, 37, 45, 53, 150  Renfe: Recoletos ( líneas: C1, C7, C2, C8, C10 y regional)</dc:description>
+            </rdf:Description>
+        </v:org>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"/>
+                <loc:barrio rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Justicia"/>
+                <v:street-address>PASEO RECOLETOS 23</v:street-address>
+                <v:locality>MADRID</v:locality>
+                <v:postal-code>28004</v:postal-code>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6921839265043257</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.422597498148065</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <v:tel>
+            <rdf:Description>
+                <rdf:value>915 787 810</rdf:value>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+            </rdf:Description>
+        </v:tel>
+        <v:email rdf:resource="mailto:turismo@esmadrid.com"/>
+    </v:VCard>
+</rdf:RDF>
+
+
+
+
+
+
+
