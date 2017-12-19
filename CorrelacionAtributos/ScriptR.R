@@ -1,10 +1,17 @@
-#Ejercicio para el curso de Ciencia Abierta (UGR) por Marina Torres
-library(MASS)
-library(dplyr)
-library(corrplot)
+#Ejercicio para el curso de Ciencia Abierta (UGR) por 
+#       Marina Torres
+#       Marcelino Cabrera
 
-data = read.table("pokemonData.txt",sep = "\t",comment.char = "@", header = TRUE) 
-table=data.frame(data)
+# Paquetes necesarios
+
+install.packages("corrplot")
+install.packages("knitr")
+install.packages("MASS")
+
+
+#library(dplyr)
+
+
 
 plot(table$Attack~table$HP, xlab="HP", ylab="Attack", pch=16, col = table$Type,
      main="Hp vs Attack")

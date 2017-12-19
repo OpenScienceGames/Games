@@ -4,6 +4,7 @@ author: "Marina Torres"
 output:
   html_document: default
   pdf_document: default
+bibliography: b.bib
 ---
 
 
@@ -11,12 +12,31 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 load(file="data.RData")
 library(MASS)
-library("Hmisc")
 library(corrplot)
 ```
 
+```{r, echo=FALSE}
+data = read.table("pokemonData.txt",sep = "\t",comment.char = "@", header = TRUE) 
+table=data.frame(data)
+
+```
+## Introducción
+Los Pokemon tienen muchos atributos que los diferencian unos de otros....
+
+Utilizamos los atributos base que determinan la fuerza del Pokemon. Son valores fijos, no se pueden alterar con objetos y toman valores entre 1 y 250.
+
+
+
+-- Seguir introducción -- Introducir refenrencia
+
+Reporte técnico [@book]
+
+
+
 ## Los datos
-Los datos con los que se trabajan estÃ¡n formados por 1167 entradas con 9 variables. Se trata de distintos Pokemons y algunas de sus estadÃ­sticas en atributos como ataque, velocidad, tipo... Veamos la estructura de los datos visualizando las 4 primeras filas.
+Los datos con los que se trabajan, publicados originalemente en [@data], están formados por 1167 entradas con 9 variables. Se trata de distintos Pokemons y algunas de sus estadÃ­sticas en atributos como ataque, velocidad, tipo... El total se calcula como combinación del resto de atributos. 
+
+Veamos la estructura de los datos visualizando las 4 primeras filas.
 
 ```{r, echo=FALSE}
 table[0:4,]
@@ -101,5 +121,9 @@ En concreto, Speed y Defense
 
 ```{r, echo=FALSE}
 rock<- subset(table, table$Type=='ROCK') [,4:10]
-plot(rock$Speed, rock$Defense)
+plot(rock$Speed, rock$Defense, xlab="Speed", ylab="Defense")
 ```
+
+## Conclusiones
+
+## Refencias
