@@ -8,7 +8,7 @@ output:
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 load(file="data.RData")
 library(MASS)
 library("Hmisc")
@@ -18,7 +18,7 @@ library(corrplot)
 ## Los datos
 Los datos con los que se trabajan están formados por 1167 entradas con 9 variables. Se trata de distintos Pokemons y algunas de sus estadísticas en atributos como ataque, velocidad, tipo... Veamos la estructura de los datos visualizando las 4 primeras filas.
 
-```{r, echo=TRUE}
+```{r, echo=FALSE}
 table[0:4,]
 
 ```
@@ -28,14 +28,14 @@ table[0:4,]
 Veamos a grandes rasgos cómo se relacionan estos atributos.
 
 
-```{r, echo=TRUE}
+```{r, echo=FALSE}
 plot(table[,3:10])
 
 ```
 
 Veamos la correlación entre los distintos atributos de tipo numérico (Total, HP, Attack, Defense, Special.Attack, Special.Defense y Speed).
 
-```{r, echo=TRUE}
+```{r, echo=FALSE}
 correlation = cor(table[,4:10])
 round(correlation, 2)
 
@@ -44,7 +44,7 @@ round(correlation, 2)
 
 
 Podemos representar esta misma información en un correlograma donde las correlaciones positivas se muestran en azul y las correlaciones negativas en rojo. La intensidad del color y el tamaño del círculo son proporcionales a los coeficientes de correlación.
-```{r, echo=TRUE}
+```{r, echo=FALSE}
 
 corrplot(correlation, type = "upper", order = "hclust", 
          tl.col = "black", tl.srt = 45)
@@ -54,7 +54,7 @@ corrplot(correlation, type = "upper", order = "hclust",
 Podemos ver como no hay correlación entre los atributos Defense y Speed y que la variable Total es la única que tiene correlación con todas las demás. Otras correlaciones significativas (aunque menores) son Speed-Special.Attack, Special.Attack-Special.Defense, Defense-Special.Defense y Hp-Attack.
 
 Veamos todos los atributos de todos los pokemons según el tipo.
-```{r, echo=TRUE}
+```{r, echo=FALSE}
 par(xpd=TRUE)
 parcoord(table[,4:10],var.label = TRUE, col= table$Type)
 legend(7,1.2, legend=levels(table$Type), pch=16, col=unique(table$Type),pt.cex = 1 , cex=0.51)
@@ -66,7 +66,7 @@ legend(7,1.2, legend=levels(table$Type), pch=16, col=unique(table$Type),pt.cex =
 
 Veamos si para distintos tipos de pokemons la relación entre atributos es diferente.
 En primer lugar, obtenemos los tipos de pokemons.
-```{r, echo=TRUE}
+```{r, echo=FALSE}
  
 tipos=unique(as.vector(table$Type))
 
@@ -74,7 +74,7 @@ tipos=unique(as.vector(table$Type))
 
 A continuación calculamos la correlación entre sus atributos
 
-```{r, echo=TRUE}
+```{r, echo=FALSE}
 
 for(i in tipos){
   filtered = subset(table, table$Type==i)
@@ -91,7 +91,7 @@ for(i in tipos){
 
 Llaman la atención los pokemons de tipo "ROCK" que tienen atributos correlacionados de forma negativa. Visualicémoslos.
 
-```{r, echo=TRUE}
+```{r, echo=FALSE}
 rock<- subset(table, table$Type=='ROCK') [,4:10]
 plot(rock)
 ```
@@ -99,7 +99,7 @@ plot(rock)
 
 En concreto, Speed y Defense
 
-```{r, echo=TRUE}
+```{r, echo=FALSE}
 rock<- subset(table, table$Type=='ROCK') [,4:10]
 plot(rock$Speed, rock$Defense)
 ```
