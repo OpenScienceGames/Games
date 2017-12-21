@@ -1,5 +1,5 @@
 ---
-title: "Relación entre los atributos de los Pokémon"
+title: "RelaciÃ³n entre los atributos de los PokÃ©mon"
 author: "Marina Torres, Marcelino Cabrera"
 output:
   html_document: default
@@ -20,20 +20,20 @@ data = read.table("pokemonData.txt",sep = "\t",comment.char = "@", header = TRUE
 table=data.frame(data)
 
 ```
-## Introducción
-Pokémon es un juego desarrollado por The Pokémon Company, consorcio japonés compuesto por Nintendo, Game Freak y Creatures, en el que los jugadores tienen dos objetivos principales: coleccionar Pokémon y conseguir medallas de gimnasio como misiones para terminar la historia principal del juego.
+## IntroducciÃ³n
+PokÃ©mon es un juego desarrollado por The PokÃ©mon Company, consorcio japonÃ³s compuesto por Nintendo, Game Freak y Creatures, en el que los jugadores tienen dos objetivos principales: coleccionar PokÃ©mon y conseguir medallas de gimnasio como misiones para terminar la historia principal del juego.
 
-Para conseguir ambos objetivos es necesario elegir un buen equipo de Pokémon ya que la forma principal de obtener los Pokémon es capturarlos después de debilitarlos en una batalla y para ganar las medallas necesitaremos derrotar en combate al jefe del gimnasio.
+Para conseguir ambos objetivos es necesario elegir un buen equipo de PokÃ©mon ya que la forma principal de obtener los PokÃ©mon es capturarlos despuÃ©s de debilitarlos en una batalla y para ganar las medallas necesitaremos derrotar en combate al jefe del gimnasio.
 
-Para elegir nuestro equipo campeón debemos conocer las fortalezas y debilidades de cada uno de los Pokémon ya que existen interrelaciones entre las distintas características que pueden beneficiar o perjudicar durante los combates.
+Para elegir nuestro equipo campeÃ³n debemos conocer las fortalezas y debilidades de cada uno de los PokÃ©mon ya que existen interrelaciones entre las distintas caracterÃ­sticas que pueden beneficiar o perjudicar durante los combates.
 
-Cada uno de los Pokémon tiene una gran cantidad de atributos [@book] que los diferencian a uno de otro. Nosotros vamos a realizar nuestro análisis utilizando los atributos base que determinan la fuerza del Pokémon. 
+Cada uno de los PokÃ©mon tiene una gran cantidad de atributos [@book] que los diferencian a uno de otro. Nosotros vamos a realizar nuestro anÃ¡lisis utilizando los atributos base que determinan la fuerza del PokÃ©mon. 
 
 Estos atributos toman valores fijos entre 1 y 250 que no se pueden alterar con objetos del juego.
 
 
 ## Los datos
-Los datos con los que se trabajan, publicados originalemente en [@data], están formados por 1167 entradas con 9 variables. En cada fila se muestra el identificador, el nombre y el tipo de cada Pokémon, junto con sus estadísticas en los atributos ataque, defensa, HP (), velocidad, ataque especial y defensa especial. El total se calcula como suma del resto de atributos. 
+Los datos con los que se trabajan, publicados originalemente en [@data], estÃ¡n formados por 1167 entradas con 9 variables. En cada fila se muestra el identificador, el nombre y el tipo de cada PokÃ©mon, junto con sus estadÃ­sticas en los atributos ataque, defensa, HP (), velocidad, ataque especial y defensa especial. El total se calcula como suma del resto de atributos. 
 
 Veamos la estructura de los datos visualizando las 4 primeras filas.
 
@@ -44,7 +44,7 @@ table[0:4,]
 
 
 ## Estudio
-Iniciamos el estudio de los atributos viendo una relación general entre ellos.
+Iniciamos el estudio de los atributos viendo una relaciÃ³n general entre ellos.
 
 
 ```{r, echo=FALSE}
@@ -52,7 +52,7 @@ plot(table[,3:10])
 
 ```
 
-Veamos la correlación entre los distintos atributos de tipo numérico (Total, HP, Attack, Defense, Special.Attack, Special.Defense y Speed).
+Veamos la correlaciÃ³n entre los distintos atributos de tipo numÃ©rico (Total, HP, Attack, Defense, Special.Attack, Special.Defense y Speed).
 
 ```{r, echo=FALSE}
 correlation = cor(table[,4:10])
@@ -60,7 +60,7 @@ round(correlation, 2)
 
 ```
 
-Podemos representar esta misma información en un correlograma donde las correlaciones positivas se muestran en azul y las correlaciones negativas en rojo. La intensidad del color y el tamaño del círculo son proporcionales a los coeficientes de correlación.
+Podemos representar esta misma informaciÃ³n en un correlograma donde las correlaciones positivas se muestran en azul y las correlaciones negativas en rojo. La intensidad del color y el tamaÃ±o del cÃ­rculo son proporcionales a los coeficientes de correlaciÃ³n.
 ```{r, echo=FALSE}
 
 corrplot(correlation, type = "upper", order = "hclust", 
@@ -68,9 +68,9 @@ corrplot(correlation, type = "upper", order = "hclust",
 
 ```
 
-Podemos ver como no hay correlación entre los atributos Defense y Speed y que la variable Total es la única que tiene correlación con todas las demás ya que depende directamente de ellas. Otras correlaciones significativas (aunque menores) son Speed-Special.Attack, Special.Attack-Special.Defense, Defense-Special.Defense y Hp-Attack.
+Podemos ver como no hay correlaciÃ³n entre los atributos Defense y Speed y que la variable Total es la Ã­nica que tiene correlaciÃ³n con todas las demÃ¡s ya que depende directamente de ellas. Otras correlaciones significativas (aunque menores) son Speed-Special.Attack, Special.Attack-Special.Defense, Defense-Special.Defense y Hp-Attack.
 
-Veamos todos los atributos de todos los Pokémon según el tipo.
+Veamos todos los atributos de todos los PokÃ©mon segÃºn el tipo.
 
 ```{r, echo=FALSE}
 par(xpd=TRUE)
@@ -80,7 +80,7 @@ legend(7,1.2, legend=levels(table$Type), pch=16, col=unique(table$Type),pt.cex =
 
 ```
 
-Comprobemos si para distintos tipos de Pokémon la relación entre atributos es diferente.
+Comprobemos si para distintos tipos de PokÃ©mon la relaciÃ³n entre atributos es diferente.
 
 ```{r, echo=FALSE}
  
@@ -88,7 +88,7 @@ tipos=unique(as.vector(table$Type))
 
 ```
 
-En primer lugar, obtenemos los tipos de Pokémon y a continuación calculamos la correlación entre sus atributos
+En primer lugar, obtenemos los tipos de PokÃ©mon y a continuaciÃ³n calculamos la correlaciÃ³n entre sus atributos
 
 ```{r, echo=FALSE}
 
@@ -105,7 +105,7 @@ for(i in tipos){
 ```
 
 
-Llaman la atención los Pokémon de tipo "ROCK" que tienen atributos correlacionados de forma negativa. Visualicémoslos.
+Llaman la atenciÃ³n los PokÃ©mon de tipo "ROCK" que tienen atributos correlacionados de forma negativa. VisualicÃ©moslos.
 
 ```{r, echo=FALSE}
 rock<- subset(table, table$Type=='ROCK') [,4:10]
@@ -113,7 +113,7 @@ plot(rock)
 ```
 
 
-En concreto, Speed y Defense
+En concreto, Speed y Defense. Esta correlaciÃ³n indica que PokÃ©mons con mÃ¡s defensa tendrÃ¡n menor velocidad y viceversa.
 
 ```{r, echo=FALSE}
 rock<- subset(table, table$Type=='ROCK') [,4:10]
@@ -122,8 +122,8 @@ plot(rock$Speed, rock$Defense, xlab="Speed", ylab="Defense")
 
 ## Conclusiones
 
-Después del estudio de los datos que nos aportan los atributos básicos de los Pokémon, podemos concluir que no se obtienen datos significativos que permitan decidir qué Pokémon es mejor a utilizar en las batallas o enfrentamientos, salvo los mencionados para el tipo "ROCK" pero que no consideramos relevante como para decidir un combate. 
+DespuÃ©s del estudio de los datos que nos aportan los atributos bÃ¡sicos de los PokÃ©mon, podemos concluir que no se obtienen datos significativos que permitan decidir quÃ© PokÃ©mon es mejor a utilizar en las batallas o enfrentamientos aunque sÃ­ podemos observar que exiten relaciones diferentes entre los atributos para diferentes tipos de PokÃ©mon, como es el caso del tipo "ROCK". 
 
-Es necesario analizar el resto de los atributos de los Pokémon y el efecto que tienen los objetos que se pueden conseguir en el juego para definir una estrategia adecuada en el desarrollo del juego, sobre todo para los combates con los adversarios más fuertes (jefes de gimnasio) que tienen los Pokémon más desarrollados.
+Es necesario analizar el resto de los atributos de los PokÃ©mon y el efecto que tienen los objetos que se pueden conseguir en el juego para definir una estrategia adecuada en el desarrollo del juego, sobre todo para los combates con los adversarios mÃ¡s fuertes (jefes de gimnasio) que tienen los PokÃ©mon mÃ¡s desarrollados.
 
 ## Refencias
