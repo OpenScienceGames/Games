@@ -24,3 +24,7 @@ Necesitamos las bibliotecas MASS y corrplot instaladas en nuestro RStudio.
 
 Se han insertado en el fichero ScriptR.R las líneas necesarias para la instalación de estas bibliotecas previa a la generación del documento final.
 
+
+# Publicación del trabajo
+El documento está publicado en Rpubs en el siguiente enlace: http://rpubs.com/torresm/343622
+
