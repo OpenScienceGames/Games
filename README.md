@@ -1,10 +1,11 @@
 # Pokemon Games.
 
-This project aims to make some cool stats regarding pokemons. 
+El objetivo de este estudio es comprobar si se pueden crear equipos Pokémon especializados para ganar con más facilidad las diferentes batallas que se desarrollan durante el juego.
 
-Pokemon is one of the best games ever made. It has survived the test of time and has God knows how many editions of the game by now. It’s hard to understand what makes Pokemon such a phenomenal success, but here are some possible reasons. 
+Pokémon es uno de los juegos más populares de la historia. Se han desarrollado múltiples versiones en distintas plataformas con gran éxito de ventas como de seguidores fieles. Las razones para explicar el éxito de esta saga son difíciles de encontrar ya que no ha variado apenas nada durante su historia, pero cada día sigue sumando nuevos adeptos.
 
-[[https://github.com/OpenScienceGames/Games/blob/master/main_pokemon.jpg|alt=Imagen de pokemons Bulbasaur Charizard Pikachu y Squirtle]]
+
+[[https://github.com/OpenScienceGames/Games/blob/master/images/main_pokemon.jpg|alt=Imagen de pokemons Bulbasaur Charizard Pikachu y Squirtle]]
 
 # Pokemon Battles
 Seriously, have you seen a sea-dragon capable of sending out Tsunamis, a swamp monster capable of shaking the ground hard enough to cause and earthquake, or a rat shooting out beams of laser? Probably not. Such ridiculous combat only exists in Pokemon, but it is still so damn awesome.
