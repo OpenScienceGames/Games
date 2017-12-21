@@ -21,15 +21,15 @@ table=data.frame(data)
 
 ```
 ## Introducción
-Pokémon es un juego desarrollado por The Pokémon Company, consorcio japonós compuesto por Nintendo, Game Freak y Creatures, en el que los jugadores tienen dos objetivos principales: coleccionar Pokémon y conseguir medallas de gimnasio como misiones para terminar la historia principal del juego.
+Pokémon es un juego desarrollado por The Pokémon Company, consorcio japonés compuesto por Nintendo, Game Freak y Creatures, en el que los jugadores tienen dos objetivos principales: coleccionar Pokémon y conseguir medallas de gimnasio como misiones para terminar la historia principal del juego.
 
 Para conseguir ambos objetivos es necesario elegir un buen equipo de Pokémon ya que la forma principal de obtener los Pokémon es capturarlos después de debilitarlos en una batalla y para ganar las medallas necesitaremos derrotar en combate al jefe del gimnasio.
 
 Para elegir nuestro equipo campeón debemos conocer las fortalezas y debilidades de cada uno de los Pokémon ya que existen interrelaciones entre las distintas características que pueden beneficiar o perjudicar durante los combates.
 
-Cada uno de los Pokémon tiene una gran cantidad de atributos [@book] que los diferencian a uno de otro. Nosotros vamos a realizar nuestro análisis utilizando los atributos base que determinan la fuerza del Pokémon. 
+Cada uno de los Pokémon tiene una gran cantidad de atributos [@book] que los diferencian a uno de otro. Nosotros vamos a realizar nuestro análisis utilizando los atributos base que determinan la fuerza del Pokémon. Estos atributos toman valores fijos entre 1 y 250 que no se pueden alterar con objetos del juego.
 
-Estos atributos toman valores fijos entre 1 y 250 que no se pueden alterar con objetos del juego.
+El objetivo de este documento es realizar un análisis preliminar sobre las relaciones entre estos atributos.
 
 
 ## Los datos
@@ -68,7 +68,7 @@ corrplot(correlation, type = "upper", order = "hclust",
 
 ```
 
-Podemos ver como no hay correlación entre los atributos Defense y Speed y que la variable Total es la ínica que tiene correlación con todas las demás ya que depende directamente de ellas. Otras correlaciones significativas (aunque menores) son Speed-Special.Attack, Special.Attack-Special.Defense, Defense-Special.Defense y Hp-Attack.
+Podemos ver como no hay correlación entre los atributos Defense y Speed y que la variable Total es la única que tiene correlación con todas las demás ya que depende directamente de ellas. Otras correlaciones significativas (aunque menores) son Speed-Special.Attack, Special.Attack-Special.Defense, Defense-Special.Defense y Hp-Attack.
 
 Veamos todos los atributos de todos los Pokémon según el tipo.
 
