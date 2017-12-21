@@ -1,4 +1,4 @@
-id	Name	Type	Total	HP	Attack	Defense	Special Attack	Special Defense	Speed
+id	Name	Type	Total	HP	Attack	Defense	Sp_Attack	Sp_Defense	Speed
 001	Bulbasaur	GRASS	318	45	49	49	65	65	45
 001	Bulbasaur	POISON	318	45	49	49	65	65	45
 002	Ivysaur	GRASS	405	60	62	63	80	80	60

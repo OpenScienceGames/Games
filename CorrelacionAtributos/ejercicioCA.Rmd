@@ -1,6 +1,6 @@
 ---
-title: "Relaci贸n entre atributos de los Pokemons"
-author: "Marina Torres"
+title: "Relaci髇 entre los atributos de los Pokemons"
+author: "Marina Torres, Marcelino Cabrera"
 output:
   html_document: default
   pdf_document: default
@@ -21,6 +21,14 @@ table=data.frame(data)
 
 ```
 ## Introducci髇
+Pok閙on es un juego desarrollado por The Pok閙on Company, consorcio japon閟 compuesto por Nintendo, Game Freak y Creatures, en el que los jugadores tienen dos objetivos principales: coleccionar Pok閙on y conseguir medallas de gimnasio como misiones para terminar la historia principal del juego.
+
+Para conseguir ambos objetivos es necesario elegir un buen equipo de Pok閙on ya que la forma principal de obtener los Pok閙on es capturarlos despu閟 de debilitarlos en una batalla y para ganar las medallas necesitaremos derrotar en combate al jefe del gimnasio.
+
+Para elegir nuestro equipo campe髇 debemos conocer las fortalezas y debilidades de cada uno de los Pok閙on ya que existen interrelaciones entre las distintas caracter韘ticas que pueden beneficiar o perjudicar durante los combates.
+
+Cada uno de los Pok閙on tiene una gran cantidad de atributos que los diferencian a uno de otro. Nosotros vamos a realizar nuestro an醠isis utilizando los atributos base que determinan la fuerza del Pok閙on que han sido obtenidos de un reporte t閏nico realizado por [@book]
+
 Los Pokemon tienen muchos atributos que los diferencian unos de otros....
 
 Utilizamos los atributos base que determinan la fuerza del Pokemon. Son valores fijos, no se pueden alterar con objetos y toman valores entre 1 y 250.
@@ -29,12 +37,12 @@ Utilizamos los atributos base que determinan la fuerza del Pokemon. Son valores 
 
 -- Seguir introducci髇 -- Introducir refenrencia
 
-Reporte t閏nico [@book]
+
 
 
 
 ## Los datos
-Los datos con los que se trabajan, publicados originalemente en [@data], est醤 formados por 1167 entradas con 9 variables. Se trata de distintos Pokemons y algunas de sus estad铆sticas en atributos como ataque, velocidad, tipo... El total se calcula como combinaci髇 del resto de atributos. 
+Los datos con los que se trabajan, publicados originalemente en [@data], est醤 formados por 1167 entradas con 9 variables. Se trata de distintos Pokemons y algunas de sus estad韘ticas en atributos como ataque, velocidad, tipo... El total se calcula como combinaci髇 del resto de atributos. 
 
 Veamos la estructura de los datos visualizando las 4 primeras filas.
 
@@ -45,7 +53,7 @@ table[0:4,]
 
 
 ## Estudio
-Veamos a grandes rasgos c贸mo se relacionan estos atributos.
+Veamos a grandes rasgos c髆o se relacionan estos atributos.
 
 
 ```{r, echo=FALSE}
@@ -53,7 +61,7 @@ plot(table[,3:10])
 
 ```
 
-Veamos la correlaci贸n entre los distintos atributos de tipo num茅rico (Total, HP, Attack, Defense, Special.Attack, Special.Defense y Speed).
+Veamos la correlaci髇 entre los distintos atributos de tipo num閞ico (Total, HP, Attack, Defense, Special.Attack, Special.Defense y Speed).
 
 ```{r, echo=FALSE}
 correlation = cor(table[,4:10])
@@ -63,7 +71,7 @@ round(correlation, 2)
 
 
 
-Podemos representar esta misma informaci贸n en un correlograma donde las correlaciones positivas se muestran en azul y las correlaciones negativas en rojo. La intensidad del color y el tama帽o del c铆rculo son proporcionales a los coeficientes de correlaci贸n.
+Podemos representar esta misma informaci髇 en un correlograma donde las correlaciones positivas se muestran en azul y las correlaciones negativas en rojo. La intensidad del color y el tama駉 del c韗culo son proporcionales a los coeficientes de correlaci髇.
 ```{r, echo=FALSE}
 
 corrplot(correlation, type = "upper", order = "hclust", 
@@ -71,7 +79,7 @@ corrplot(correlation, type = "upper", order = "hclust",
 
 ```
 
-Podemos ver como no hay correlaci贸n entre los atributos Defense y Speed y que la variable Total es la 煤nica que tiene correlaci贸n con todas las dem谩s. Otras correlaciones significativas (aunque menores) son Speed-Special.Attack, Special.Attack-Special.Defense, Defense-Special.Defense y Hp-Attack.
+Podemos ver como no hay correlaci髇 entre los atributos Defense y Speed y que la variable Total es la 鷑ica que tiene correlaci髇 con todas las dem醩. Otras correlaciones significativas (aunque menores) son Speed-Special.Attack, Special.Attack-Special.Defense, Defense-Special.Defense y Hp-Attack.
 
 Veamos todos los atributos de todos los pokemons seg煤n el tipo.
 ```{r, echo=FALSE}
@@ -84,7 +92,7 @@ legend(7,1.2, legend=levels(table$Type), pch=16, col=unique(table$Type),pt.cex =
 
 
 
-Veamos si para distintos tipos de pokemons la relaci贸n entre atributos es diferente.
+Veamos si para distintos tipos de pokemons la relaci髇 entre atributos es diferente.
 En primer lugar, obtenemos los tipos de pokemons.
 ```{r, echo=FALSE}
  
@@ -92,7 +100,7 @@ tipos=unique(as.vector(table$Type))
 
 ```
 
-A continuaci贸n calculamos la correlaci贸n entre sus atributos
+A continuaci髇 calculamos la correlaci髇 entre sus atributos
 
 ```{r, echo=FALSE}
 
@@ -109,7 +117,7 @@ for(i in tipos){
 ```
 
 
-Llaman la atenci贸n los pokemons de tipo "ROCK" que tienen atributos correlacionados de forma negativa. Visualic茅moslos.
+Llaman la atenci髇 los pokemons de tipo "ROCK" que tienen atributos correlacionados de forma negativa. Visualic閙oslos.
 
 ```{r, echo=FALSE}
 rock<- subset(table, table$Type=='ROCK') [,4:10]
